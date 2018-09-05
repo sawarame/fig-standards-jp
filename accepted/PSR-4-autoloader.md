@@ -2,7 +2,6 @@
 [オートローディング]: http://php.net/autoload
 [PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 [実装例]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader-examples.md
-[原文]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
 
 
 # オートローダー
@@ -62,4 +61,5 @@
 仕様に準拠したオートローダーの実装例については[実装例][]を参照。この実装例は仕様の一部とみなしてはならない（MUST NOT）。そしていつでも変更することができる（MAY）。
 
 
-[原文][]
+このページはPSR-4 Autoloaderを日本語訳したものです。  
+原文：https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
