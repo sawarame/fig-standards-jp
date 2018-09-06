@@ -1,8 +1,10 @@
 [RFC 2119]: http://tools.ietf.org/html/rfc2119
 [オートローディング]: http://php.net/autoload
-[PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
-[実装例]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader-examples.md
+[PSR-0]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-0.md
+[実装例]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-4-autoloader-examples.md
 
+このページはPSR-4 Autoloaderを日本語訳したものです。  
+原文：https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
 
 # オートローダー
 
@@ -59,7 +61,3 @@
 | \Zend\Acl                     | Zend               | /usr/includes/Zend/      | /usr/includes/Zend/Acl.php
 
 仕様に準拠したオートローダーの実装例については[実装例][]を参照。この実装例は仕様の一部とみなしてはならない（MUST NOT）。そしていつでも変更することができる（MAY）。
-
-
-このページはPSR-4 Autoloaderを日本語訳したものです。  
-原文：https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
