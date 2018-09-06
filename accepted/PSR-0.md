@@ -44,9 +44,6 @@ PHP 5.3クラスをロードできるSplClassLoaderの実装のサンプルを�
 実装例
 ----------------------
 
-Below is an example function to simply demonstrate how the above
-proposed standards are autoloaded.
-
 下記は、上記で提案した規格がどの様にオートロードされているか、簡単に示す関数の例です。
 
 ~~~php
