@@ -12,7 +12,7 @@
 日本語化の更新履歴をここに記載します。
 
 ### 2018年9月7日
-* [PSR-2-coding-style-guide][] 日本語化
+* [PSR-2-coding-style-guide.md][] 日本語化
 
 ### 2018年9月6日
 * [PSR-4-autoloader-examples.md][] 日本語化
