@@ -1,6 +1,7 @@
 
 [PSR-0.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-0.md
 [PSR-1-basic-coding-standard.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-1-basic-coding-standard.md
+[PSR-2-coding-style-guide.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-2-coding-style-guide.md
 [PSR-4-autoloader-examples.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-4-autoloader-examples.md
 [PSR-4-autoloader.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-4-autoloader.md
 
@@ -9,6 +10,9 @@
 ## 更新履歴
 
 日本語化の更新履歴をここに記載します。
+
+### 2018年9月7日
+* [PSR-2-coding-style-guide][] 日本語化
 
 ### 2018年9月6日
 * [PSR-4-autoloader-examples.md][] 日本語化
