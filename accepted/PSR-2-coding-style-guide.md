@@ -2,7 +2,7 @@
 [PSR-0]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-0.md
 [PSR-1]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-1-basic-coding-standard.md
 
-このページはPSR-1 Basic Coding Standardを日本語訳したものです。  
+このページはPSR-2 Coding Style Guideを日本語訳したものです。  
 原文：https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
 
 
