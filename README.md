@@ -2,6 +2,7 @@
 [PSR-0.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-0.md
 [PSR-1-basic-coding-standard.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-1-basic-coding-standard.md
 [PSR-2-coding-style-guide.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-2-coding-style-guide.md
+[PSR-3-logger-interface.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-3-logger-interface.md
 [PSR-4-autoloader-examples.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-4-autoloader-examples.md
 [PSR-4-autoloader.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-4-autoloader.md
 
@@ -10,6 +11,9 @@
 ## 更新履歴
 
 日本語化の更新履歴をここに記載します。
+
+### 2018年9月8日
+* [PSR-3-logger-interface.md][] 日本語化
 
 ### 2018年9月7日
 * [PSR-2-coding-style-guide.md][] 日本語化
@@ -38,11 +42,12 @@
 | declaration | 宣言 | |
 | default value | 初期設定値 | デフォルト値・標準値 |
 | definition | 定義 | |
+| extending | 継承 | 抽象化クラスを継承すること |
 | fully-qualified class name | 完全修飾クラス名 | |
 | fully-qualified namespace | 完全修飾名前空間 | |
 | function(s) | 関数 | |
 | initialize | 初期化 | |
-| implementation | 実装 | |
+| implementation | 実装 | インターフェースクラスを実装する意味でも使用 |
 | interoperability | 相互運用 | |
 | keywords | 予約語 | |
 | namespace | 名前空間 | |
