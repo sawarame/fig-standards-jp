@@ -1,31 +1,4 @@
-
-[PSR-0.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-0.md
-[PSR-1-basic-coding-standard.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-1-basic-coding-standard.md
-[PSR-2-coding-style-guide.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-2-coding-style-guide.md
-[PSR-3-logger-interface.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-3-logger-interface.md
-[PSR-4-autoloader-examples.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-4-autoloader-examples.md
-[PSR-4-autoloader.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-4-autoloader.md
-
 # PSR日本語訳
-
-## 更新履歴
-
-日本語化の更新履歴をここに記載します。
-
-### 2018年9月8日
-* [PSR-3-logger-interface.md][] 日本語化
-
-### 2018年9月7日
-* [PSR-2-coding-style-guide.md][] 日本語化
-
-### 2018年9月6日
-* [PSR-4-autoloader-examples.md][] 日本語化
-* [PSR-0.md][] 日本語化
-* [PSR-1-basic-coding-standard.md][] 日本語化
-
-### 2018年9月5日
-* [PSR-4-autoloader.md][] 日本語化
-
 
 ## 用語
 
@@ -63,3 +36,29 @@
 | suffix | 接尾語 | サフィックス |
 | visibility | アクセス権/アクセス修飾子 | |
 | void | 無効 | |
+
+
+
+## 更新履歴
+[PSR-0.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-0.md
+[PSR-1-basic-coding-standard.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-1-basic-coding-standard.md
+[PSR-2-coding-style-guide.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-2-coding-style-guide.md
+[PSR-3-logger-interface.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-3-logger-interface.md
+[PSR-4-autoloader-examples.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-4-autoloader-examples.md
+[PSR-4-autoloader.md]: https://github.com/sawarame/fig-standards-jp/blob/master/accepted/PSR-4-autoloader.md
+
+日本語化の更新履歴をここに記載します。
+
+### 2018年9月8日
+* [PSR-3-logger-interface.md][] 日本語化
+
+### 2018年9月7日
+* [PSR-2-coding-style-guide.md][] 日本語化
+
+### 2018年9月6日
+* [PSR-4-autoloader-examples.md][] 日本語化
+* [PSR-0.md][] 日本語化
+* [PSR-1-basic-coding-standard.md][] 日本語化
+
+### 2018年9月5日
+* [PSR-4-autoloader.md][] 日本語化
