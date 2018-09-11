@@ -1,4 +1,8 @@
-# PSR日本語訳
+# PSR日本語
+
+これは[PHP-FIG]()による[PSR](https://github.com/php-fig/fig-standards)を日本語翻訳するプロジェクトです。
+
+基本的に[accepted](https://github.com/php-fig/fig-standards/tree/master/accepted)のみを翻訳対象とし、メタ情報の翻訳予定はありません。
 
 ## 用語
 
@@ -69,3 +73,10 @@
 
 ### 2018年9月5日
 * [PSR-4-autoloader.md][] 日本語化
+
+
+## 最後に
+
+翻訳者自身が未熟なため、内容に間違いがあるかもしれません。
+
+間違いがあった場合は、issueもしくはpull requestもらえると非常に嬉しいです。 
