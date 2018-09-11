@@ -1,6 +1,6 @@
 # PSR日本語
 
-これは[PHP-FIG]()による[PSR](https://github.com/php-fig/fig-standards)を日本語翻訳するプロジェクトです。
+これは[PHP-FIG](https://www.php-fig.org/)による[PSR](https://github.com/php-fig/fig-standards)を日本語翻訳するプロジェクトです。
 
 基本的に[accepted](https://github.com/php-fig/fig-standards/tree/master/accepted)のみを翻訳対象とし、メタ情報の翻訳予定はありません。
 
