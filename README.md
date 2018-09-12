@@ -26,7 +26,7 @@
 | initialize | 初期化 | |
 | implementation | 実装 | インターフェースクラスを実装する意味でも使用 |
 | indexed (array) | 添字配列 | Arrays with a numeric **index**. |
-| interoperability | 相互運用 | |
+| interoperability | 互換性 | |
 | keywords | 予約語 | |
 | namespace | 名前空間 | |
 | normalize | 正規化 | |
