@@ -43,7 +43,7 @@ Mandatory
 * どの名前空間も好きな数だけサブ名前空間を持つことが出来ます。
 * 名前空間の区切り文字はファイルシステムからロードする際に`DIRECTORY_SEPARATOR`(ディレクトリの区切り文字)に変換されます。
 * クラス名に含まれる`_`(アンダースコア)は、`DIRECTORY_SEPARATOR`に変換されます。名前空間に含まれる`_`は特別な意味を持ちません。
-* 完全修飾名前空間とクラス名はファイルシステムかロードする際に`.php`が後置されます。
+* 完全修飾名前空間とクラス名はファイルシステムからロードする際に`.php`が最後に付け加えられます。
 * ベンダー名・名前空間・クラス名は、大文字・小文字の組み合わせのアルファベットが使用できます。
 
 <!--
@@ -72,8 +72,8 @@ Underscores in Namespaces and Class Names
 The standards we set here should be the lowest common denominator for painless autoloader interoperability.
 following these standards by utilizing this sample SplClassLoader implementation which is able to load PHP 5.3 classes.
 -->
-ここで定めた規格は、オートローダーの互換性において最も影響の少ないものになるはずです。
-下記の様に、PHP 5.3クラスをロードできるSplClassLoaderの実装のサンプルを利用して、これらの規格に準拠していることをテスト出来ます。
+ここで定めた規格は、オートローダーの互換性を実現する最も簡単な方法になるはずです。
+下記にPHP5.3クラスがロードできる、この規格に準拠したクラスローダーの実装サンプルを紹介します。
 
 <!--
 Example Implementation
@@ -85,7 +85,7 @@ Example Implementation
 <!--
 Below is an example function to simply demonstrate how the above proposed standards are autoloaded.
 -->
-下記は、上記で提案した規格がどの様にオートロードされているか、簡単に示す関数の例です。
+下記は、上記で提案した規格のオートロード方法を示した簡単なデモ関数です。
 
 ~~~php
 <?php
@@ -118,7 +118,7 @@ SplClassLoaderの実装
 The following gist is a sample SplClassLoader implementation that can load your classes if you follow the autoloader interoperability standards proposed above.
 It is the current recommended way to load PHP 5.3 classes that follow these standards.
 -->
-次のgistは上記提案されたオートローダーの相互運用の規格に準拠したクラスをロードできる、SplClassLoaderの実装例です。
+次のgistはこのオートローディング規格に準拠したクラスがロードできるクラスローダー(SplClassLoader)の実装例です。
 規格に準拠するPHP5.3のクラスをロードする現時点での推奨方法です。
 
 * [http://gist.github.com/221634](http://gist.github.com/221634)
