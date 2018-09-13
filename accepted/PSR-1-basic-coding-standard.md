@@ -14,13 +14,12 @@
 <!--
 This section of the standard comprises what should be considered the standard coding elements that are required to ensure a high level of technical interoperability between shared PHP code.
 -->
-この規約のセクションでは共有のPHPコード間で、技術的なレベルの高い相互運用性を確実にするために必要な、標準でコーディング要素が考慮すべき内容を含みます。
+このセクションの規約は、共有されるPHPのコード間で技術的にレベルの高い互換性を保つために必要とされる、標準的なコーディング要素を考慮し、構成されています。
 
 <!--
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119].
 -->
 この文書に記載されているキーワード「しなければならない（MUST）」、「してはならない（MUST NOT）」、「必須（REQUIRED）」、「するものとする（SHALL）」、「しないものとする（SHALL NOT）」、「すべきである（SHOULD）」、「すべきでない（SHOULD NOT）」、「推奨する（RECOMMENDED）」、「することができる（MAY）」、「任意（OPTIONAL）」は、[RFC 2119][]に記載されている内容で解釈されます。
-
 
 <!--
 ## 1. Overview
@@ -32,9 +31,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 - Files MUST use only UTF-8 without BOM for PHP code.
 
-- Files SHOULD *either* declare symbols (classes, functions, constants, etc.)
-  *or* cause side-effects (e.g. generate output, change .ini settings, etc.)
-  but SHOULD NOT do both.
+- Files SHOULD *either* declare symbols (classes, functions, constants, etc.) *or* cause side-effects (e.g. generate output, change .ini settings, etc.) but SHOULD NOT do both.
 
 - Namespaces and classes MUST follow an "autoloading" PSR: [[PSR-0], [PSR-4]].
 
@@ -92,17 +89,17 @@ PHPコードはBOMなしUTF−8のみ使用しなければなりません（MUST
 <!--
 A file SHOULD declare new symbols (classes, functions, constants, etc.) and cause no other side effects, or it SHOULD execute logic with side effects, but SHOULD NOT do both.
 -->
-一つのファイルには新しいシンボル（クラス・関数・定数等）と他の副作用を引き起こさないものが宣言されるか、副作用のあるロジックが実行されるべきで（SHOULD）、両方行うべきではありません（SHOULD NOT）。
+一つのファイルには、新しいシンボル（クラス・関数・定数等）の宣言と他の副作用を起こさないものか、副作用のあるロジックを行うか、どちらかであるべきで（SHOULD）、両方行うべきではありません（SHOULD NOT）。
 
 <!--
 The phrase "side effects" means execution of logic not directly related to declaring classes, functions, constants, etc., *merely from including the file*.
 -->
-「副作用」というフレーズが意味するものは、クラス・関数・定数などの宣言に直接関係しないロジックの実行をファイルを含めることを意味します。
+「副作用」が意味するのは、クラス、関数、定数などの宣言に直接関係するものではなく、単にファイルをインクルードすることでロジックが実行されるものを指します。
 
 <!--
 "Side effects" include but are not limited to: generating output, explicit use of `require` or `include`, connecting to external services, modifying ini settings, emitting errors or exceptions, modifying global or static variables, reading from or writing to a file, and so on.
 -->
-「副作用」には、出力の生成・明示的な`require`もしくは`include`の使用・外部サービスへの接続・iniの設定の変更・エラーまたは例外の発行・グローバル変数または静的変数の変更・ファイルへの読み書き等々が含まれますが、限定はされません。
+「副作用」には、出力の生成・明示的な`require`もしくは`include`の使用・外部サービスへの接続・iniの設定の変更・エラーまたは例外の発行・グローバル変数または静的変数の変更・ファイルへの読み書き等々が含まれますが、これだけというわけではありません。
 
 <!--
 The following is an example of a file with both declarations and side effects; i.e, an example of what to avoid:
@@ -306,12 +303,12 @@ class Foo
 <!--
 This guide intentionally avoids any recommendation regarding the use of `$StudlyCaps`, `$camelCase`, or `$under_score` property names.
 -->
-このガイドはプロパティ名の`$StudlyCaps`、`$camelCase`、`$under_score`を使用することに関しての推奨を、意図的に避けています（つまりどれを使用してもよい）。
+本規約はプロパティ名に関しての命名規則は特に推奨するものはなく、`$StudlyCaps`、`$camelCase`、`$under_score`のいずれを使用しても構いません。
 
 <!--
 Whatever naming convention is used SHOULD be applied consistently within a reasonable scope. That scope may be vendor-level, package-level, class-level, or method-level.
 -->
-しかし、命名規則は適正なスコープで一貫しているべきです（SHOULD）。そのスコープは、ベンダーレベル、パッケージレベル、クラスレベル、またはメソッドレベルのいずれかです。
+しかし、命名規則は適正な範囲で一貫して使用されるべきです（SHOULD）。その範囲は、ベンダーレベル、パッケージレベル、クラスレベル、またはメソッドレベルのいずれかです。
 
 <!--
 ### 4.3. Methods
