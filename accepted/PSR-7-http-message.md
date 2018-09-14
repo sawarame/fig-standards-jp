@@ -7,11 +7,10 @@
 # HTTPメッセージインターフェース
 
 <!--
-This document describes common interfaces for representing HTTP messages as
-described in [RFC 7230](http://tools.ietf.org/html/rfc7230) and
-[RFC 7231](http://tools.ietf.org/html/rfc7231), and URIs for use with HTTP
-messages as described in [RFC 3986](http://tools.ietf.org/html/rfc3986).
+This document describes common interfaces for representing HTTP messages as described in [RFC 7230](http://tools.ietf.org/html/rfc7230) and [RFC 7231](http://tools.ietf.org/html/rfc7231), and URIs for use with HTTP messages as described in [RFC 3986](http://tools.ietf.org/html/rfc3986).
+-->
 
+<!--
 HTTP messages are the foundation of web development. Web browsers and HTTP
 clients such as cURL create HTTP request messages that are sent to a web server,
 which provides an HTTP response message. Server-side code receives an HTTP
