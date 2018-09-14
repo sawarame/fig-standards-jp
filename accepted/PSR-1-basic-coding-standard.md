@@ -14,7 +14,7 @@
 <!--
 This section of the standard comprises what should be considered the standard coding elements that are required to ensure a high level of technical interoperability between shared PHP code.
 -->
-このセクションの規約は、共有されるPHPのコード間での互換性を保つために必要とされる標準的なコーディング要素を考慮し、構成されています。
+このセクションの規約は、共有されるPHPのコードの相互運用性を保つために必要とされる標準的なコーディング要素を考慮し、構成されています。
 
 <!--
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119].

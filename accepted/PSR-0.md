@@ -20,7 +20,7 @@ Autoloading Standard
 <!--
 The following describes the mandatory requirements that must be adhered to for autoloader interoperability.
 -->
-次にオートローダーの互換性を保つために守らなければならない必須要件について説明します。
+次にオートローダーの相互運用性を保つために守らなければならない必須要件について説明します。
 
 <!--
 Mandatory
@@ -72,7 +72,7 @@ Underscores in Namespaces and Class Names
 The standards we set here should be the lowest common denominator for painless autoloader interoperability.
 following these standards by utilizing this sample SplClassLoader implementation which is able to load PHP 5.3 classes.
 -->
-ここで定めた規格は、オートローダーの互換性を実現する最も簡単な方法になるはずです。
+ここで定めた規格は、オートローダーの相互運用性を実現する最も簡単な方法になるはずです。
 下記にPHP5.3クラスがロードできる、この規格に準拠したクラスローダーの実装サンプルを紹介します。
 
 <!--

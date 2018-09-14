@@ -26,7 +26,7 @@
 | initialize | 初期化 | |
 | implementation | 実装 | インターフェースクラスを実装する意味でも使用 |
 | indexed (array) | 添字配列 | Arrays with a numeric **index**. |
-| interoperability | 互換性 | |
+| interoperability | 相互運用性 | プロジェクト間を横断して運用可能なこと |
 | keywords | 予約語 | [予約語](http://www.php.net/manual/ja/reserved.keywords.php) |
 | namespace | 名前空間 | |
 | normalize | 正規化 | |
