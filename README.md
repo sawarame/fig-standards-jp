@@ -15,7 +15,7 @@
 | closures | 無名関数 | クロージャ |
 | coding standard | コーディング規約 | |
 | constant(s) | 定数 | |
-| control structure | 制御構造 | |
+| control structure | 制御構造 | [制御構造](http://php.net/manual/ja/language.control-structures.php) |
 | declaration | 宣言 | |
 | default value | 初期設定値 | デフォルト値・標準値 |
 | definition | 定義 | |
@@ -27,7 +27,7 @@
 | implementation | 実装 | インターフェースクラスを実装する意味でも使用 |
 | indexed (array) | 添字配列 | Arrays with a numeric **index**. |
 | interoperability | 互換性 | |
-| keywords | 予約語 | |
+| keywords | 予約語 | [予約語](http://www.php.net/manual/ja/reserved.keywords.php) |
 | namespace | 名前空間 | |
 | normalize | 正規化 | |
 | operator(s) | 演算子 | |
